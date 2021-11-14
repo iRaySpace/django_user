@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django_user"
+version = "0.1.0"
+description = ""
+authors = ["iRaySpace"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Django = "^3.2.9"
+djangorestframework = "^3.12.4"
+django-cors-headers = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
