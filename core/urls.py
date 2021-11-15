@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import RegisterAPIView
+from .views import RegisterAPIView, user
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/register/', RegisterAPIView.as_view(), name='register'),
+    path('api/user/', user, name='user'),
 ]
